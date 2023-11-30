@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #2c3e50; /* Azul oscuro */
+    padding: 15px 0; /* Añade espacio interno arriba y abajo del contenido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+}
+
+/* Estilo para la marca del navbar */
+.navbar-brand {
+    color: #ecf0f1; /* Blanco */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Grosor de la fuente */
+}
+
+/* Estilo para los enlaces del navbar */
+.navbar a {
+    color: #ecf0f1; /* Blanco */
+    margin-left: 20px; /* Añade espacio a la izquierda de cada enlace */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces del navbar al pasar el ratón sobre ellos */
+.navbar a:hover {
+    text-decoration: underline; 
+    font: bold;/* Añade subrayado al pasar el ratón sobre el enlace */
+}

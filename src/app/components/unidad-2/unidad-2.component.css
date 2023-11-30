@@ -1,0 +1,60 @@
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #c7d5e8;
+  display: flex;
+  
+}
+
+aside {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-right: 1px solid #ccc;
+  opacity: 80%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul ul {
+  margin-left: 20px;
+}
+nav li {
+  margin-bottom: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  
+}
+nav a:hover {
+  color: #0066cc; /* Adjust the hover color as needed */
+}
+main{
+flex:1;
+padding: 20px;
+
+
+}
+img{
+max-width: 100%;
+height: auto;
+margin-bottom: 20px;
+align-items: center;
+}
+.centered-image {
+display: block;
+margin: 0 auto; /* Esto centra horizontalmente la imagen /
+max-width: 100%; / Asegura que la imagen no exceda el ancho del contenedor /
+height: auto; / Mantiene la proporción de aspecto original */
+}
+.click{
+cursor: pointer;
+}

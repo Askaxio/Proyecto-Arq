@@ -1,0 +1,26 @@
+footer {
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    padding: 20px; /* Añade espacio interno alrededor del contenido */
+    text-align: center; /* Centra el texto dentro del footer */
+}
+
+footer p {
+    margin: 5px 0; /* Añade espacio entre los párrafos */
+}
+
+/* Estilo para los iconos */
+footer i {
+    margin-right: 5px; /* Añade espacio a la derecha de los iconos */
+}
+
+/* Estilo para los enlaces */
+footer a {
+    color: #fff; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+}
+
+/* Estilo para los enlaces al pasar el ratón sobre ellos */
+footer a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+}
