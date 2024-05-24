@@ -1,4 +1,7 @@
-<footer>
-    <p> <i class="fa-solid fa-at" aria-hidden="true"></i> &nbsp; L22050366@saltillo.tecnm.mx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://www.facebook.com/TecNMcampusSaltillo" target="_blank"> <i class="fa-brands fa-facebook" aria-hidden="true"></i> &nbsp; TECNM Instituto Tecnológico de Saltillo  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a href="https://instagram.com/tecnmitsaltillo?igshid=YmMyMTA2M2Y=" target="_blank"> <i class="fa-brands fa-instagram" aria-hidden="true"></i> &nbsp; tecnmitsaltillo</a> </p>
-    <p> Autor: Ascacio Sanchez Jorge Luis &nbsp;&nbsp;&nbsp; Materia:Arquitectura de Computadoras 17:00 - 18:00 hrs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matrícula: 22050366</p>
+<footer id="footer" [ngStyle]="{ display: isFooterVisible ? 'block' : 'none' }">
+    <p> <i class="fa-solid fa-at" aria-hidden="true"></i> &nbsp; l21051530@saltillo.tecnm.mx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://www.facebook.com/TecNMcampusSaltillo" target="_blank"> <i class="fa-brands fa-facebook" aria-hidden="true"></i> &nbsp; TECNM Instituto Tecnológico de Saltillo  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a href="https://instagram.com/tecnmitsaltillo?igshid=YmMyMTA2M2Y=" target="_blank"> <i class="fa-brands fa-instagram" aria-hidden="true"></i> &nbsp; tecnmitsaltillo</a> </p>
+    <p> Autor: Oscar Daniel Vargas Zamora &nbsp;&nbsp;&nbsp; Materia:Arquitectura de Computadoras 17:00 - 18:00 hrs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matrícula: 21051530</p>
+    <button id="toggleButton" (click)="toggleFooter()">∇</button> <!-- Botón para ocultar o mostrar -->
 </footer>
+<button *ngIf="!isFooterVisible" id="toggleButton" (click)="toggleFooter()">▲</button> <!-- Botón para ocultar o mostrar -->
+
